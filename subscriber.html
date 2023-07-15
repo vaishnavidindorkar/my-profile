@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Signika+Negative:wght@700&family=Sofia&family=Sofia+Sans+Semi+Condensed&display=swap" rel="stylesheet">
+</head>
+<style>
+    .frame{
+        width: 600px;
+  height: 900px;
+  background-color: rgb(238, 236, 236);
+  border-radius: 3px;
+  border-color: #f5f4f4;
+  border-style: solid;
+      border-radius: 10px;
+    }
+    .myFrame{
+        width: 558px;
+    height: 740px;
+  /* margin: auto; */
+  background-color: white;
+  margin-left: 20px;
+    border-radius: 20px;
+ box-shadow: 5px 10px #cbc8c8;;
+    }
+    #main{
+        margin-top: 30px;
+    margin-bottom: 30px;
+    }
+    h1{
+      
+        font-size: 32px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 30px;
+
+    padding-top: 25px;
+    }
+    .container{
+background-color: rgb(38, 165, 216);
+width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 24px;
+    }
+    p{
+        font-size: 20px;
+    color: white;
+    font-weight: 300;
+    padding: 24px 24px;
+    word-spacing: 5px;
+    margin-left: 12px;
+}
+label{
+            font-family: 'Poppins', sans-serif;
+            color: black;
+          
+            font-size: larger;
+            margin-left: 35px;
+            font-weight: bold;
+        }
+input[type="text"]{
+  
+    width: 480px;
+            border-radius: 10px;
+            padding: 7px;
+            color: black;
+            background-color: rgb(238, 231, 231);
+            font-weight: bolder;
+            font-size: large;
+            margin-bottom: 35px;
+            font-family: 'Poppins', sans-serif; 
+            margin-left: 35px;
+}
+textarea{
+    width: 480px;
+            border-radius: 10px;
+            padding: 7px;
+            color: black;
+            background-color: rgb(238, 231, 231);
+            font-weight: bolder;
+            font-size: large;
+            margin-bottom: 35px;
+            font-family: 'Poppins', sans-serif; 
+            margin-left: 35px;
+                font-weight: bold;
+}
+.required:after {
+    content:" *";
+    color: red;
+  }
+ button{
+    background-color:  rgb(238, 231, 231);
+    color: black;
+    border-radius: 15px;
+    width: 139px;
+    height: 40px;
+    font-size: larger;
+    /* text-align: right; */
+    margin-left: 360px;
+    border: white;
+    font-weight: bold;
+ }
+    
+</style>
+<body>
+    <div class="frame">
+   <div class="myFrame">
+    <h1>Subscriber</h1>
+    <hr>
+    <div class="container">
+<p>We'r sorry to see you go, but hey, no hard <br> feelings , hopefully we will see you back one day.<br>
+    Please fill in your email addredd in order to unsubscribe from the list.<br>
+    You will recive an email to confirm your <br>
+    unsubscription , just to make sure this is <br>
+    not an accident or somebody else tries <br> to unsubscribe you.
+ </p>
+</div>
+
+<form id="main">
+   
+
+ 
+        <label class="required"> Email </label><br>
+        <input type="text" required><br>
+        <label> Unsubscribe reason </label><br>
+        <textarea  type="text" col="10" row="5" placeholder="Unsubscribe reason"></textarea><br>
+        <hr>
+       
+    
+      
+    </form>
+    <button type="submit">Unsubscribe</button><br>
+</div>
+</div>
+</body>
+</html>
