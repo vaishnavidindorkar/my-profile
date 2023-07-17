@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning Property</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .main{
+            width:250px;
+            height:325px;
+            border: 1px solid rgb(151 142 142);
+            display: inline-block;
+            margin-right: 35px;
+            position: relative;
+    top: 70px;
+        }
+        .sub-main{
+            height: 61px;
+            background-color: rgb(3, 163, 142);
+    padding-top: 0px;
+    margin-top: -42px;
+    margin-bottom: -10px;
+        }
+        h5{
+            text-align: center; /* margin-top: 30px; */ padding-top: 10px; font-size: 25px; color: white;
+        }
+        h4{
+            text-align: center;
+            margin-top: -10px;
+            font-size: 25px;
+        }
+        .middle{
+            width:250px;
+            height:325px;
+            border:1px solid rgb(107, 96, 96);
+            display: inline-block;
+            margin-right: 35px;
+        }
+        .sub-middle{
+            height: 61px;
+    background-color: rgb(173, 22, 22);
+    padding-top: 0px;
+    margin-top: -42px;
+    margin-bottom: -10px;
+        }
+        .end{
+            width:250px;
+            height:325px;
+            border: 1px solid rgb(107, 96, 96);
+            display: inline-block;
+            margin-right: 35px;
+            position: relative;
+    top: 70px;
+        }
+        .end-middle{
+            height: 61px;
+            background-color: rgb(3, 163, 142);
+    padding-top: 0px;
+    margin-top: -42px;
+    margin-bottom: -10px;
+        }
+        ul li{
+            list-style-type: none;
+            word-spacing: 10px;
+          
+    display: inline;
+    font-size: 20px;
+        }
+        .fa-check::before{
+            color: rgb(2, 131, 2);
+        }
+        .fa-times::before{
+            color:rgb(185, 6, 6)
+        }
+        button{
+background-color: rgb(3, 163, 142);
+width:50px;
+color: white;
+margin-left: 35px;
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: #e7e7e7;
+    font-size: 15px;
+    margin-top: -50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub-main"> <h5>  Basic </h5> </div>
+
+<hr>
+<ul>
+    <i class="fa fa-check" aria-hidden="true"><li> Hosting </li></i><br>
+  
+    <i class="fa fa-times" aria-hidden="true"><li> Domain </li></i><br>
+  
+    <i class="fa fa-check" aria-hidden="true"><li> 1 GB Space </li></i><br>
+   
+    <i class="fa fa-times" aria-hidden="true"><li> Free SSL </li></i><br>
+  
+    <i class="fa fa-check" aria-hidden="true"><li> 1 Website Host </li></i><br>
+   
+</ul><br>
+<h4> $5 </h4>
+<button type="submit"> Buy Now </button>
+    </div>
+    <div class="middle">
+        <div class="sub-middle"> <h5>  Standard </h5> </div>
+
+<hr>
+<ul>
+    <i class="fa fa-check" aria-hidden="true"><li> Hosting </li></i><br>
+  
+    <i class="fa fa-check" aria-hidden="true"><li> Domain </li></i><br>
+  
+    <i class="fa fa-check" aria-hidden="true"><li> 1 GB Space </li></i><br>
+   
+    <i class="fa fa-times" aria-hidden="true"><li> Free SSL </li></i><br>
+  
+    <i class="fa fa-check" aria-hidden="true"><li> 1 Website Host </li></i><br>
+</ul><br>
+<h4> $10 </h4>
+<button type="submit"> Buy Now </button>
+    </div>
+    <div class="end">
+        <div class="end-middle"> <h5>  Standard </h5> </div>
+<hr>
+<ul>
+    <i class="fa fa-check" aria-hidden="true"><li> Hosting </li></i><br>
+  
+    <i class="fa fa-check" aria-hidden="true"><li> Domain </li></i><br>
+  
+    <i class="fa fa-check" aria-hidden="true"><li> 1 GB Space </li></i><br>
+   
+    <i class="fa fa-check" aria-hidden="true"><li> Free SSL </li></i><br>
+  
+    <i class="fa fa-check" aria-hidden="true"><li> 1 Website Host </li></i><br>
+</ul><br>
+<h4> $20 </h4>
+<button type="submit"> Buy Now </button>
+    </div>
+</body>
+</html>
